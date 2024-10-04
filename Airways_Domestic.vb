@@ -211,7 +211,7 @@ Public Class Airways_Domestic
                     SubTotal = TravelPrice.Leh_AP
                 ElseIf DestinationComboBox.Text = "Lucknow Airport [Uttar Pradesh]" Then                       '[Uttar Pradesh]
                     SubTotal = TravelPrice.Lucknow_AP
-                ElseIf DestinationComboBox.Text = "Mumbai Airport [Maharastra]" Then                           '[Maharastra]
+                ElseIf DestinationComboBox.Text = "Mumbai Airport [Maharashtra]" Then                          '[Maharashtra]
                     SubTotal = TravelPrice.Mumbai_AP
                 ElseIf DestinationComboBox.Text = "Panaji Airport [Goa]" Then                                  '[Goa]
                     SubTotal = TravelPrice.Panaji_AP

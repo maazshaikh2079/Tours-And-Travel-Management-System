@@ -198,7 +198,7 @@ Public Class Roadways
                         SubTotal = (TravelPrice.Kempegowda_BD * Nooftravellers)
                     ElseIf (TravellingtoComboBox.Text = "Leh Bus Depot [Ladakh]") Then                               '[Ladakh]
                         SubTotal = (TravelPrice.Leh_BD * Nooftravellers)
-                    ElseIf (TravellingtoComboBox.Text = "MSRTC Bus Depot [Maharastra]") Then                         '[Maharastra]
+                    ElseIf (TravellingtoComboBox.Text = "MSRTC Bus Depot [Maharashtra]") Then                        '[Maharashtra]
                         SubTotal = (TravelPrice.MSRTC_BD * Nooftravellers)
                     ElseIf (TravellingtoComboBox.Text = "MST Bus Depot [Mizoram]") Then                              '[Mizoram]
                         SubTotal = (TravelPrice.MST_BD * Nooftravellers)

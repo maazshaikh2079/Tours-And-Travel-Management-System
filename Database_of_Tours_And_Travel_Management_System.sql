@@ -1,7 +1,7 @@
 Use tntmsdb;
 
 -- Select * From Railways;
-Select * From Roadways;
+-- Select * From Roadways;
 -- Select * From Airways_Domestic;
 
 -- -- Creating Railways Table:
