@@ -1,0 +1,1471 @@
+                If (DestinationComboBox.Text = "Agartala Airport [Tripura]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Agartala_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Agartala Airport [Tripura]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Agartala_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(TravelPrice.Agartala_AP)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Agartala Airport [Tripura]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Agartala_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Agartala Airport [Tripura]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Agartala_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Agartala Airport [Tripura]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Agartala_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Agartala Airport [Tripura]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Agartala_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Aizawl Airport [Mizoram]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Aizawl_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = Total + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Aizawl Airport [Mizoram]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Aizawl_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Aizawl Airport [Mizoram]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Aizawl_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Aizawl Airport [Mizoram]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Aizawl_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Aizawl Airport [Mizoram]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Aizawl_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Aizawl Airport [Mizoram]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Aizawl_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Amaravati Airport  [Andhra Pradesh]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Amaravati_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Amaravati Airport  [Andhra Pradesh]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Amaravati_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Amaravati Airport  [Andhra Pradesh]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Amaravati_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Amaravati Airport  [Andhra Pradesh]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Amaravati_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Amaravati Airport  [Andhra Pradesh]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Amaravati_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Amaravati Airport  [Andhra Pradesh]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Amaravati_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Bangalore Airport [Karnataka]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Bangalore_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Bangalore Airport [Karnataka]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Bangalore_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Bangalore Airport [Karnataka]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Bangalore_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Bangalore Airport [Karnataka]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Bangalore_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total * 2)
+
+                ElseIf (DestinationComboBox.Text = "Bangalore Airport [Karnataka]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Bangalore_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Bangalore Airport [Karnataka]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Bangalore_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+                    'Correct :- 
+                ElseIf (DestinationComboBox.Text = "Bhubaneshwar Airport [Odisha]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Bhubaneshwar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Bhubaneshwar Airport [Odisha]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Bhubaneshwar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Bhubaneshwar Airport [Odisha]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Bhubaneshwar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Bhubaneshwar Airport [Odisha]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Bhubaneshwar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Bhubaneshwar Airport [Odisha]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Bhubaneshwar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Bhubaneshwar Airport [Odisha]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Bhubaneshwar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chandighar Airport  [Chandigarh/Punjab/Haryana]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Chandighar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chandighar Airport  [Chandigarh/Punjab/Haryana]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Chandighar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chandighar Airport  [Chandigarh/Punjab/Haryana]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Chandighar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chandighar Airport  [Chandigarh/Punjab/Haryana]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Chandighar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chandighar Airport  [Chandigarh/Punjab/Haryana]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Chandighar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chandighar Airport  [Chandigarh/Punjab/Haryana]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Chandighar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chennai Airport [Tamil Nadu]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Chennai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chennai Airport [Tamil Nadu]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Chennai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chennai Airport [Tamil Nadu]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Chennai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chennai Airport [Tamil Nadu]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Chennai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chennai Airport [Tamil Nadu]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Chennai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Chennai Airport [Tamil Nadu]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Chennai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Daman Airport [Dadra/NagarHaveli/Daman/Diu]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Daman_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Daman Airport [Dadra/NagarHaveli/Daman/Diu]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Daman_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Daman Airport [Dadra/NagarHaveli/Daman/Diu]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Daman_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Daman Airport [Dadra/NagarHaveli/Daman/Diu]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Daman_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Daman Airport [Dadra/NagarHaveli/Daman/Diu]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Daman_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Daman Airport [Dadra/NagarHaveli/Daman/Diu]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Daman_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dehradun Airport [Uttarakhand]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Dehradun_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dehradun Airport [Uttarakhand]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Dehradun_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dehradun Airport [Uttarakhand]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Dehradun_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dehradun Airport [Uttarakhand]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Dehradun_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dehradun Airport [Uttarakhand]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Dehradun_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dehradun Airport [Uttarakhand]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Dehradun_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Delhi Airport [Delhi] ") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Delhi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Delhi Airport [Delhi] ") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Delhi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Delhi Airport [Delhi] ") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Delhi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Delhi Airport [Delhi] ") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Delhi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Delhi Airport [Delhi] ") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Delhi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Delhi Airport [Delhi] ") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Delhi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dispur Airport [Assam]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Dispur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dispur Airport [Assam]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Dispur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dispur Airport [Assam]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Dispur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dispur Airport [Assam]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Dispur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dispur Airport [Assam]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Dispur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Dispur Airport [Assam]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Dispur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gandhinagar Airport [Gujarat]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Gandhinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gandhinagar Airport [Gujarat]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Gandhinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gandhinagar Airport [Gujarat]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Gandhinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gandhinagar Airport [Gujarat]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Gandhinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gandhinagar Airport [Gujarat]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Gandhinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gandhinagar Airport [Gujarat]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Gandhinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gangtok Airport [Sikkim]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Gangtok_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gangtok Airport [Sikkim]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Gangtok_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gangtok Airport [Sikkim]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Gangtok_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gangtok Airport [Sikkim]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Gangtok_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gangtok Airport [Sikkim]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Gangtok_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Gangtok Airport [Sikkim]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Gangtok_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+
+                ElseIf (DestinationComboBox.Text = "Hyderabad Airport [Telangana]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Hyderabad_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Hyderabad Airport [Telangana]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Hyderabad_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Hyderabad Airport [Telangana]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Hyderabad_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Hyderabad Airport [Telangana]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Hyderabad_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Hyderabad Airport [Telangana]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Hyderabad_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Hyderabad Airport [Telangana]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Hyderabad_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Imphal Airport [Manipur]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Imphal_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Imphal Airport [Manipur]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Imphal_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Imphal Airport [Manipur]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Imphal_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Imphal Airport [Manipur]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Imphal_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Imphal Airport [Manipur]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Imphal_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Imphal Airport [Manipur]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Imphal_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Itanagar Airport [Arunachal Pradesh]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Itanagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Itanagar Airport [Arunachal Pradesh]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Itanagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Itanagar Airport [Arunachal Pradesh]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Itanagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Itanagar Airport [Arunachal Pradesh]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Itanagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Itanagar Airport [Arunachal Pradesh]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Itanagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Itanagar Airport [Arunachal Pradesh]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Itanagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Jaipur Airport [Rajasthan]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Jaipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Jaipur Airport [Rajasthan]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Jaipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Jaipur Airport [Rajasthan]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Jaipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Jaipur Airport [Rajasthan]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Jaipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Jaipur Airport [Rajasthan]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Jaipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Jaipur Airport [Rajasthan]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Jaipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Katmandu Airport [Nepal]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Katmandu_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Katmandu Airport [Nepal]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Katmandu_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Katmandu Airport [Nepal]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Katmandu_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Katmandu Airport [Nepal]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Katmandu_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Katmandu Airport [Nepal]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Katmandu_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Katmandu Airport [Nepal]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Katmandu_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kavarathi Airport [Lakshadweep]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Kavarathi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kavarathi Airport [Lakshadweep]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Kavarathi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kavarathi Airport [Lakshadweep]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Kavarathi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kavarathi Airport [Lakshadweep]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Kavarathi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kavarathi Airport [Lakshadweep]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Kavarathi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kavarathi Airport [Lakshadweep]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Kavarathi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kohima Airport [Nagaland]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Kohima_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kohima Airport [Nagaland]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Kohima_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kohima Airport [Nagaland]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Kohima_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kohima Airport [Nagaland]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Kohima_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kohima Airport [Nagaland]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Kohima_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kohima Airport [Nagaland]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Kohima_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kolkata Airport [West Bengal]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Kolkata_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kolkata Airport [West Bengal]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Kolkata_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kolkata Airport [West Bengal]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Kolkata_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kolkata Airport [West Bengal]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Kolkata_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kolkata Airport [West Bengal]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Kolkata_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Kolkata Airport [West Bengal]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Kolkata_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+
+                ElseIf (DestinationComboBox.Text = "Leh Airport [Ladakh]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Leh_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Leh Airport [Ladakh]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Leh_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Leh Airport [Ladakh]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Leh_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Leh Airport [Ladakh]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Leh_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Leh Airport [Ladakh]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Leh_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Leh Airport [Ladakh]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Leh_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Lucknow Airport [Uttar Pradesh]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Lucknow_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Lucknow Airport [Uttar Pradesh]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Lucknow_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Lucknow Airport [Uttar Pradesh]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Lucknow_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Lucknow Airport [Uttar Pradesh]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Lucknow_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Lucknow Airport [Uttar Pradesh]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Lucknow_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Lucknow Airport [Uttar Pradesh]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Lucknow_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+
+                ElseIf (DestinationComboBox.Text = "Mumbai Airport [Maharastra]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Mumbai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Mumbai Airport [Maharastra]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Mumbai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Mumbai Airport [Maharastra]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Mumbai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Mumbai Airport [Maharastra]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Mumbai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Mumbai Airport [Maharastra]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Mumbai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Mumbai Airport [Maharastra]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Mumbai_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Panaji Airport [Goa]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Panaji_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Panaji Airport [Goa]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Panaji_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Panaji Airport [Goa]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Panaji_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Panaji Airport [Goa]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Panaji_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Panaji Airport [Goa]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Panaji_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Panaji Airport [Goa]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Panaji_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Patna Airport [Bihar]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Patna_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Patna Airport [Bihar]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Patna_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Patna Airport [Bihar]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Patna_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Patna Airport [Bihar]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Patna_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Patna Airport [Bihar]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Patna_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Patna Airport [Bihar]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Patna_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Puducherry Airport [Puducherry]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Puducherry_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Puducherry Airport [Puducherry]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Puducherry_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Puducherry Airport [Puducherry]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Puducherry_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Puducherry Airport [Puducherry]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Puducherry_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Puducherry Airport [Puducherry]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Puducherry_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Puducherry Airport [Puducherry]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Puducherry_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Raipur Airport [Chhattisgarh]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Raipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Raipur Airport [Chhattisgarh]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Raipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Raipur Airport [Chhattisgarh]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Raipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Raipur Airport [Chhattisgarh]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Raipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Raipur Airport [Chhattisgarh]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Raipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Raipur Airport [Chhattisgarh]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Raipur_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Ranchi Airport [Jharkhand]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Ranchi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Ranchi Airport [Jharkhand]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Ranchi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Ranchi Airport [Jharkhand]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Ranchi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Ranchi Airport [Jharkhand]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Ranchi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Ranchi Airport [Jharkhand]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Ranchi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Ranchi Airport [Jharkhand]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Ranchi_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shillong Airport [Meghalaya]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Shillong_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shillong Airport [Meghalaya]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Shillong_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shillong Airport [Meghalaya]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Shillong_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shillong Airport [Meghalaya]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Shillong_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shillong Airport [Meghalaya]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Shillong_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shillong Airport [Meghalaya]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Shillong_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shimla Airport [Himachal Pradesh]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Shimla_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shimla Airport [Himachal Pradesh]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Shimla_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shimla Airport [Himachal Pradesh]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Shimla_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shimla Airport [Himachal Pradesh]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Shimla_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shimla Airport [Himachal Pradesh]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Shimla_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Shimla Airport [Himachal Pradesh]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Shimla_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Srinagar Airport [Jammu & Kashmir]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Srinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Srinagar Airport [Jammu & Kashmir]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Srinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Srinagar Airport [Jammu & Kashmir]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Srinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Srinagar Airport [Jammu & Kashmir]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Srinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Srinagar Airport [Jammu & Kashmir]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Srinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Srinagar Airport [Jammu & Kashmir]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Srinagar_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Thiruvananthapuram Airport [Kerala]") And (EconomyRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Thiruvananthapuram_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Thiruvananthapuram Airport [Kerala]") And (EconomyRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Thiruvananthapuram_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Thiruvananthapuram Airport [Kerala]") And (BusinessClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Thiruvananthapuram_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Thiruvananthapuram Airport [Kerala]") And (BusinessClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Thiruvananthapuram_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_Bussiness_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Thiruvananthapuram Airport [Kerala]") And (FirstClassRadioButton.Checked = True) And (SingleCheckBox.Checked = True) Then
+                    SubTotal = TravelPrice.Thiruvananthapuram_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class
+                    Total = SubTotal + Tax
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (DestinationComboBox.Text = "Thiruvananthapuram Airport [Kerala]") And (FirstClassRadioButton.Checked = True) And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = ((TravelPrice.Thiruvananthapuram_AP + TravelPrice.Travel_Insurance + TravelPrice.Ext_Luggage + TravelPrice.Flight_First_Class) * 2)
+                    Total = SubTotal + (Tax * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TaxLabel.Text = FormatCurrency(Tax * 2)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                End If
+
+                If (AccomodationComboBox.Text = "Single") And (SingleCheckBox.Checked = True) Then
+                    SubTotal = SubTotal + TravelPrice.Accom_Single
+                    Total = Total + TravelPrice.Accom_Single
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (AccomodationComboBox.Text = "Single") And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = SubTotal + (TravelPrice.Accom_Single * 2)
+                    Total = Total + (TravelPrice.Accom_Single * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (AccomodationComboBox.Text = "Double") And (SingleCheckBox.Checked = True) Then
+                    SubTotal = SubTotal + (TravelPrice.Accom_Double)
+                    Total = Total + (TravelPrice.Accom_Double)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (AccomodationComboBox.Text = "Double") And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = SubTotal + (TravelPrice.Accom_Double * 2)
+                    Total = Total + (TravelPrice.Accom_Double * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (AccomodationComboBox.Text = "Extra") And (SingleCheckBox.Checked = True) Then
+                    SubTotal = SubTotal + (TravelPrice.Accom_Extra)
+                    Total = Total + (TravelPrice.Accom_Extra)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                ElseIf (AccomodationComboBox.Text = "Extra") And (ReturnCheckBox.Checked = True) Then
+                    SubTotal = SubTotal + (TravelPrice.Accom_Extra * 2)
+                    Total = Total + (TravelPrice.Accom_Extra * 2)
+                    SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    TotalLabel.Text = FormatCurrency(Total)
+
+                    'Else
+                    '   SubTotalLabel.Text = FormatCurrency(SubTotal)
+                    '  TotalLabel.Text = FormatCurrency(Total)
+                End If
+                SubTotalLabel.Text = FormatCurrency(SubTotal)
+                TotalLabel.Text = FormatCurrency(Total)
+                ReceiptButton.Enabled = True
+                ReceiptRichTextBox.Clear()
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+Agartala Airport [Tripura]
+Aizawl Airport [Mizoram]
+Amaravati Airport  [Andhra Pradesh]
+Bangalore Airport [Karnataka]
+Bhopal Airport [Madhya Pradesh]
+Bhubaneshwar Airport [Odisha]
+Chandighar Airport  [Chandigarh/Punjab/Haryana]
+Chennai Airport [Tamil Nadu]
+Daman Airport [Dadra/NagarHaveli/Daman/Diu]
+Dehradun Airport [Uttarakhand]
+Delhi Airport [Delhi] 
+Dispur Airport [Assam]
+Gandhinagar Airport [Gujarat]
+Gangtok Airport [Sikkim] 
+Hyderabad Airport [Telangana]
+Imphal Airport [Manipur]
+Itanagar Airport [Arunachal Pradesh]
+Jaipur Airport [Rajasthan]
+Katmandu Airport [Nepal]
+Kavarathi Airport [Lakshadweep]
+Kohima Airport [Nagaland] 
+Kolkata Airport [West Bengal]
+Leh Airport [Ladakh]
+Lucknow Airport [Uttar Pradesh]
+Mumbai Airport [Maharastra]
+Panaji Airport [Goa]
+Patna Airport [Bihar]
+Port Blair Airport [Andaman Nicobar Islands]
+Puducherry Airport [Puducherry]
+Raipur Airport [Chhattisgarh]
+Ranchi Airport [Jharkhand]
+Shillong Airport [Meghalaya]
+Shimla Airport [Himachal Pradesh]
+Srinagar Airport [Jammu & Kashmir]
+Thiruvananthapuram Airport [Kerala]

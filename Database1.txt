@@ -1,0 +1,32 @@
+Thakur Polytechnic, Thakur Complex, Kandivali (E), Mumbai-400101, Maharashtra.
+9833463489
+tpoly@thakureducation.org
+
+ReceiptRichTextBox.AppendText(vbTab + vbTab + vbTab + " Airways System [Domestic]" + vbNewLine + vbNewLine)
+        ReceiptRichTextBox.AppendText("_______________________________________________________" + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Name           :  " + Name + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Age              :  " + Age + vbNewLine)
+        ReceiptRichTextBox.AppendText("  PIN Code     :  " + PINCodeTextBox.Text.TrimStart.TrimEnd + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Phone no.    :  " + PhonenoTextBox.Text.Replace(" ", "") + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Email ID      :  " + EmailIDTextBox.Text.Replace(" ", "") + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Address       :  " + AddressTextBox.Text.TrimStart.TrimEnd + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Departure    :  " + DepartureComboBox.Text + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Destination  :  " + DestinationComboBox.Text + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Ticket           :  " + Ticket + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Class            :  " + Flight_Class + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Accommodation :  " + AccomodationComboBox.Text + vbNewLine)
+        ReceiptRichTextBox.AppendText("_______________________________________________________" + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Sub Total     :  " + SubTotalLabel.Text + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Tax              :  " + TaxLabel.Text + vbNewLine)
+        ReceiptRichTextBox.AppendText("  Total            :  " + TotalLabel.Text + vbNewLine)
+        ReceiptRichTextBox.AppendText("_______________________________________________________" + vbNewLine)
+        ReceiptRichTextBox.AppendText(Today + vbTab + vbTab + vbTab + vbTab + vbTab + vbTab + vbTab + TimeOfDay + vbNewLine)
+        ReceiptRichTextBox.AppendText("_______________________________________________________" + vbNewLine + vbNewLine)
+        ReceiptRichTextBox.AppendText(vbTab + "                  Thanks for using Airways System" + vbNewLine)
+
+Name, Age, PIN_Code, Phone_no, Email_ID, Address, Departure, Destination, Ticket, Class, Accommodation, Sub_Total, Tax, Total
+
+Madina House, Karimi Park, Jogeshwari (W), Mumbai, Maharashtra.
+maazshaikh2079@gmail.com
+7208613298
+400102
